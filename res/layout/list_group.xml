@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="8dp" 
+    android:stretchColumns="1">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imgIcon"
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:src="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/lblProcName"
+             	android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:textColor="#f9f93d"
+                android:textSize="15sp" 
+    			android:ellipsize="end"/>
+            
+            <TextView
+                android:id="@+id/lblProcTotalPower"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#f9f93d"
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp" />
+            
+        </TableRow>
+    </TableLayout>

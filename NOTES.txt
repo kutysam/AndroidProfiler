@@ -1,0 +1,13 @@
+1) Read current brightness
+2) Store into main reference
+3) Launch app
+4) Record foreground time for fun
+
+5) Store reference of current brightness
+6) Subtract previous amount and Add to the reference of app brightness
+
+Overall CPU Power Consumption
+Overall Screen Power Consumption
+Overall WIFI Power Consumption
+Overall 3G Power Consumption
+Overall GPS Power Consumption

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:stretchColumns="*" 
+        android:background="@color/Black">
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtMainView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ref Time:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtRefTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/txtRefCpuTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CPUSpeed"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Button
+                android:id="@+id/btnSetRef"
+                android:layout_width="fill_parent"
+				style="?android:attr/buttonStyleSmall"
+                android:onClick="setBtnRefOnClick"
+                android:text="Start" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:background="@color/gray"
+            android:textColor="@android:color/black" >
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Params"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                android:textColor="@android:color/black" />
+            
+            <TextView
+                android:id="@+id/textMainView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current (W)"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/txtMainView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avg (W)"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/txtMainView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total (J)"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                android:textColor="@android:color/black" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+			<TextView
+                android:id="@+id/txtview123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALL"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtCurrentW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 W"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtAvgW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A W"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtTotalJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 J"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+        
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Screen"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/txtScreenIW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 W"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtScreenAW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A W"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtScreenJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 J"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CPU"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/txtCPUIW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 W"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtCPUAW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A W"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtCPUJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 J"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+        
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wifi S"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/txtWIFISIW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 W"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtWIFISAW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A W"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtWIFISJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 J"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+        
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wifi A"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/txtWIFIAIW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 W"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtWIFIAAW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A W"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtWIFIAJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 J"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+        
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile S"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/txtMOBILESIW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 W"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtMOBILESAW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A W"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtMOBILESJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 J"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+        
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile A"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/txtMOBILEAIW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 W"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtMOBILEAAW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A W"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtMOBILEAJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 J"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+        
+        
+    <View
+        android:layout_height="2dip"
+        android:background="#FF0000" />
+    </TableLayout>
+ 
+            <ExpandableListView
+                android:id="@+id/lvExp"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:groupIndicator="@null"/>   
+ 
+</LinearLayout>

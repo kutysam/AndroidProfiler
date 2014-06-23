@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Profiler</string>
+	<string name="refresh">Reload</string>
+	<string name="exit">Exit</string>
+</resources>

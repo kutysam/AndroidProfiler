@@ -1,0 +1,16 @@
+Name | Name						lblProcFullName
+UserID	| ID					lblProcUID
+CPUTime | <TIME> | J			lblProcCPUTime		lblProcCPUJ
+FG Time | <TIME> | J			lblProcFGTime		lblProcFGJ
+Wifi Transmit | <BYTES> | J		lblProcWTransmit	lblProcWTransmitJ
+Wifi Receive | <BYTES> | J		lblProcWReceive		lblProcWReceiveJ
+Wifi Total | <BYTES> | J		lblProcWTotal		lblProcWTotalJ
+MData Transmit | <BYTES> | J	lblProcMTransmit	lblProcMTransmitJ
+MData Receive | <BYTES> | J		lblProcMReceive		lblProcMReceiveJ
+MData TOTAL | <BYTES> | J		lblProcMTotal		lblProcMTotalJ
+GPS | <TIME> | J				lblGPSTime			lblGPSJ
+
+Processes | No
+PROC1 |	Name | CPUTime
+PROC2 |	Name | CPUTime
+PROC3 |	Name | CPUTime

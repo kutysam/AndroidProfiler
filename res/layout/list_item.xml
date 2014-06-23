@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+    android:id="@+id/tblChild"
+    android:stretchColumns="2,3,4" 
+    android:background="@color/White">
+
+    <TableRow
+        android:id="@+id/tableRow55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:background="@color/DarkGray">
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detailed Information"
+            android:layout_span="5"
+            android:layout_gravity="center_horizontal" 
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        >
+
+        <TextView
+            android:id="@+id/txtMainView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:background="@color/LightGrey"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lblProcFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:text="name"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txtMainView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User ID"
+            android:background="@color/LightGrey"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lblProcUID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:text="uid"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  >
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Screen"
+            android:background="@color/LightGrey"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lblProcScreenTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0h 0m 0s"
+            android:paddingRight="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lblProcScreenIW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 W"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lblProcScreenAW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 W"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lblProcScreenJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 J"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:background="@color/DarkGray">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WiFi Usage"
+            android:layout_span="5"
+            android:layout_gravity="center_horizontal" 
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Active"
+            android:background="@color/LightGrey"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lblProcWActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 pkt"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+        
+        <TextView
+            android:id="@+id/lblProcWActiveIW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 W"
+                        android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lblProcWActiveAW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 W"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lblProcWActiveJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 J"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/tableRow14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:background="@color/DarkGray" 
+        >
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Data Usage"
+            android:layout_span="5"
+            android:layout_gravity="center_horizontal" 
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Active"
+            android:background="@color/LightGrey"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lblProcMActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 pkt"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lblProcMActiveIW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 W"
+                        android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lblProcMActiveAW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 W"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lblProcMActiveJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 J"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:background="@color/DarkGray" >
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CPU Usage"
+            android:layout_span="5"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:background="@color/LightGrey"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lblProcCPUTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0h 0m 0s"
+            android:paddingRight="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lblProcCPUIW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50W"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+        
+        <TextView
+            android:id="@+id/lblProcCPUAW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25W"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+        
+        <TextView
+            android:id="@+id/lblProcCPUJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500J"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:background="@color/DarkGray">
+        
+        <TextView
+            android:id="@+id/lblNoOfProcess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="99"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/black" />
+        
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+			android:layout_gravity="center_horizontal"
+            android:text="PID Processes"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        >
+    	
+		   <TableLayout android:id="@+id/tblSubProcess"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content" 
+		       android:layout_span="5"
+		       android:stretchColumns="1,2,3"
+		       android:background="@color/LightGrey"  >
+		   </TableLayout>
+     </TableRow>
+</TableLayout>
